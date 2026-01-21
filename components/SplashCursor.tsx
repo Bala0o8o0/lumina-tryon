@@ -20,7 +20,7 @@ function SplashCursor({
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
   useEffect(() => {
-    const canvas = canvasRef.current;
+    const canvas = canvasRef.current as HTMLCanvasElement;
     if (!canvas) return;
 
     function pointerPrototype(this: any) {
@@ -49,6 +49,7 @@ function SplashCursor({
       SPLAT_FORCE,
       SHADING,
       COLOR_UPDATE_SPEED,
+      COLORFUL: true,
       PAUSED: false,
       BACK_COLOR,
       TRANSPARENT
@@ -146,7 +147,7 @@ function SplashCursor({
       fragmentShaderSource: string;
       programs: any[];
       activeProgram: WebGLProgram | null;
-      uniforms: any[];
+      uniforms: any;
 
       constructor(vertexShader: WebGLShader, fragmentShaderSource: string) {
         this.vertexShader = vertexShader;
@@ -197,7 +198,7 @@ function SplashCursor({
     }
 
     function getUniforms(program: WebGLProgram) {
-      let uniforms: any = [];
+      let uniforms: any = {};
       let uniformCount = gl.getProgramParameter(program, gl.ACTIVE_UNIFORMS);
       for (let i = 0; i < uniformCount; i++) {
         let uniformName = gl.getActiveUniform(program, i)!.name;
@@ -666,6 +667,7 @@ function SplashCursor({
     }
 
     function resizeCanvas() {
+      if (!canvas) return false;
       let width = scaleByPixelRatio(canvas.clientWidth);
       let height = scaleByPixelRatio(canvas.clientHeight);
       if (canvas.width !== width || canvas.height !== height) {
