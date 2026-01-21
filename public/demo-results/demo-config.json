@@ -1,0 +1,54 @@
+{
+    "demo-pairs": [
+        {
+            "id": "pair-1",
+            "garmentType": "top",
+            "bodyImage": "body-a.jpg",
+            "topImage": "shirt-a.jpg",
+            "resultImage": "result-top.jpg",
+            "description": "Person wearing shirt"
+        },
+        {
+            "id": "pair-2",
+            "garmentType": "bottom",
+            "bodyImage": "body-a.jpg",
+            "bottomImage": "pants-a.jpg",
+            "resultImage": "result-bottom.jpg",
+            "description": "Person wearing pants"
+        },
+        {
+            "id": "pair-3",
+            "garmentType": "top+bottom",
+            "bodyImage": "body-a.jpg",
+            "topImage": "shirt-a.jpg",
+            "bottomImage": "pants-a.jpg",
+            "resultImage": "result-combo.jpg",
+            "description": "Person wearing shirt and pants"
+        },
+        {
+            "id": "pair-4",
+            "garmentType": "footwear",
+            "bodyImage": "body-a.jpg",
+            "footwearImage": "shoe-a.jpg",
+            "resultImage": "result-shoe.jpg",
+            "description": "Person wearing shoes"
+        },
+        {
+            "id": "pair-5",
+            "garmentType": "top+bottom+footwear",
+            "bodyImage": "body-a.jpg",
+            "topImage": "shirt-a.jpg",
+            "bottomImage": "pants-a.jpg",
+            "footwearImage": "shoe-a.jpg",
+            "resultImage": "result-all.jpg",
+            "description": "Person wearing complete outfit"
+        }
+    ],
+    "fallback-images": [
+        "result-top.jpg",
+        "result-bottom.jpg",
+        "result-combo.jpg",
+        "result-shoe.jpg",
+        "result-all.jpg"
+    ]
+}
