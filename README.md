@@ -7,7 +7,7 @@
 ███████╗╚██████╔╝██║ ╚═╝ ██║██║██║ ╚████║██║  ██║
 ╚══════╝ ╚═════╝ ╚═╝     ╚═╝╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝
                                                  
-      ✨ THE FUTURE OF VIRTUAL TRY-ON ✨
+      ✨ THE AI IMAGE VIRTUAL TRY-ON ✨
 ```
 
 <div align="center">
@@ -26,7 +26,6 @@
 
 **Experience the next generation of e-commerce.** Lumina Try-On allows users to virtually wear any outfit instantly with physics-accurate fabric adaptation, powered by Google's **Gemini 3 Pro** multimodal models.
 
-> *"Where Fashion Meets Artificial Intelligence."*
 
 ---
 
@@ -44,7 +43,7 @@ We prioritize reliability. Our system features a robust **Dual-Mode Architecture
 
 ### 🎨 **Advanced Visuals**
 -   **Physics-Accurate Simulation:** Neural rendering that understands fabric draping and material properties.
--   **Fluid UI/UX:** Built with **Framer Motion** and **WebGL** splash cursors for a premium feel.
+-   **Fluid UI/UX:** Built with **Tailwind CSS** ***Aceternity UI** **Framer Motion** and **WebGL** splash cursors for a premium feel.
 -   **Responsive Design:** Fully optimized for mobile, tablet, and desktop.
 
 ### 🔒 **Enterprise-Grade Security**
@@ -64,7 +63,7 @@ We prioritize reliability. Our system features a robust **Dual-Mode Architecture
 | **Database** | ![Supabase](https://img.shields.io/badge/-Supabase-green?logo=supabase) | Postgres database, Auth, and Realtime. |
 | **AI Model** | ![Gemini](https://img.shields.io/badge/-Gemini_3_Pro-purple?logo=google) | Google's state-of-the-art multimodal AI. |
 | **Payments** | ![Razorpay](https://img.shields.io/badge/-Razorpay-blue?logo=razorpay) | Secure payment gateway integration. |
-| **UI Libs** | `lucide-react`, `framer-motion`, `radix-ui` | For beautiful, accessible, and animated components. |
+| **UI Libs** | `Aceternity UI`,`lucide-react`, `framer-motion`, `radix-ui` | For beautiful, accessible, and animated components. |
 
 ---
 
@@ -131,7 +130,7 @@ We welcome contributions! Please see our [Contributing Guide](GEMINI.md) for det
 
 <div align="center">
 
-**Built with ❤️ and 🤖 using Next.js & Gemini**
+**Built with ❤️ and 🤖**
 
 ---
 
